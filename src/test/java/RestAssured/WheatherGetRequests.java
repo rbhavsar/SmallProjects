@@ -11,9 +11,18 @@ import static com.jayway.restassured.RestAssured.*;
 public class WheatherGetRequests {
 
 
+	/*
+	<html>
+		<head>
+			<!--Add title here-->
+		</head>
+
+	</html>
+	 */
+
 	//Simple get request for getting wheather request by City name
 	//Status Code : 200
-	//@Test Merge Conflict
+	//@Test
 	public void Test_01(){
 
 		Response resp= when().
