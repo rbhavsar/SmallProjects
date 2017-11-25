@@ -14,7 +14,7 @@ public class WheatherGetRequests {
 	/*
 	<html>
 		<head>
-			<!--Add title here-->
+			<title>Merge Conflict</title>
 		</head>
 
 	</html>
