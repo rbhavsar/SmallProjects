@@ -1,3 +1,11 @@
+//https://www.youtube.com/watch?v=EuLEki6c1A8
+//https://vaadin.com/blog/consuming-rest-services-from-java-applications
+//https://www.youtube.com/watch?v=c0apqyro0-Y
+//https://www.youtube.com/watch?v=ogwH4pMyJCE&index=22&list=PLVlQHNRLflP9O_T5bbRS8oTU7Y3Co3ZE9
+//https://www.youtube.com/watch?v=O1epK2bQscA&index=28&list=PLVlQHNRLflP9O_T5bbRS8oTU7Y3Co3ZE9
+//https://www.mongodb.com/download-center#atlas
+
+
 package Twitter;
 
 import twitter4j.Status;
