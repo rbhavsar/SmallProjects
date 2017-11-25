@@ -13,7 +13,7 @@ public class WheatherGetRequests {
 
 	//Simple get request for getting wheather request by City name
 	//Status Code : 200
-	//@Test
+	//@Test Case
 	public void Test_01(){
 
 		Response resp= when().
