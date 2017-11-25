@@ -14,7 +14,7 @@ public class WheatherGetRequests {
 	/*
 	<html>
 		<head>
-			<!--Add title here-->
+			<title>Welcome to my page</title>
 		</head>
 
 	</html>
