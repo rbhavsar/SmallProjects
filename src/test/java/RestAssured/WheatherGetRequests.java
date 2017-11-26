@@ -11,16 +11,7 @@ import static com.jayway.restassured.RestAssured.*;
 public class WheatherGetRequests {
 
 
-	/*
-	<html>
-		<head>
-
-			<title>Welcome to my page</title>
-
-		</head>
-
-	</html>
-	 */
+	//Checkin something
 
 	//Simple get request for getting wheather request by City name
 	//Status Code : 200
