@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNGListerSuite">
+    <listeners>
+        <listener class-name="TestNGListener.TestNGListenerDemo" />
+    </listeners>
+
+    <test name="TestCase">
+        <classes>
+            <class name="TestNGListener.TestCase">
+                <methods>
+                    <include name="tc1"/>
+                    <include name="tc2"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+</suite>

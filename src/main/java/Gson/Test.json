@@ -1,0 +1,22 @@
+{
+  "name": "Taj",
+  "owner": {
+    "name": "Ravi",
+    "userAddress": {
+      "street": "Decoto Rd",
+      "houseNumber": "42A",
+      "city": "uninonCity",
+      "country": "USA"
+    }
+  },
+  "cook": {
+    "age": 32,
+    "name": "test",
+    "salary": 213
+  },
+  "waiter": {
+    "age": 32,
+    "name": "test",
+    "salary": 213
+  }
+}

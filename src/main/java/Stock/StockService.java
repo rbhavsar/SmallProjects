@@ -1,7 +1,14 @@
 package Stock;
 
+import java.util.List;
+
 public interface StockService {
 
-    public double getPrice(Stock stock);
+  static void getFeed(List<String> symbols) {
+
+
+  }
+
+  public double getPrice(Stock stock);
 
 }

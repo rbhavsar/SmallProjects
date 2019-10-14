@@ -1,0 +1,12 @@
+{
+  "name":"Ravi",
+  "email":"rbhavsar@birst.com",
+  "age":31,
+  "isDeveloper":true,
+  "userAddress":{
+      "street":"Decoto Rd",
+      "houseNumber":"42A",
+      "city":"unionCity",
+      "country":"USA"
+  }
+}

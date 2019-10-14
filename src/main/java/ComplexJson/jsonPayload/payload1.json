@@ -1,0 +1,90 @@
+{
+  "headers": [
+    {
+      "columnName": "CategoryID",
+      "width": 10,
+      "isAttribute": false,
+      "isMeasure": false,
+      "dataType": "Integer",
+      "ManuallyEdited": false,
+      "Qualified": true
+    },
+    {
+      "columnName": "CategoryName",
+      "width": 15,
+      "isAttribute": false,
+      "isMeasure": false,
+      "dataType": "Varchar",
+      "ManuallyEdited": false,
+      "Qualified": true
+    },
+    {
+      "columnName": "Description",
+      "width": 1073741823,
+      "isAttribute": false,
+      "isMeasure": false,
+      "dataType": "Varchar",
+      "ManuallyEdited": false,
+      "Qualified": true
+    },
+    {
+      "columnName": "NewCategoryName",
+      "width": 2000,
+      "isAttribute": false,
+      "isMeasure": false,
+      "dataType": "VARCHAR",
+      "ManuallyEdited": true,
+      "Qualified": false
+    }
+  ],
+  "rows": [
+    [
+      "1",
+      "Beverages",
+      "Soft drinks, coffees, teas, beers, and ales",
+      "Beverages: Soft drinks, coffees, teas, beers, and ales"
+    ],
+    [
+      "2",
+      "Condiments",
+      "Sweet and savory sauces, relishes, spreads, and seasonings",
+      "Condiments: Sweet and savory sauces, relishes, spreads, and seasonings"
+    ],
+    [
+      "3",
+      "Confections",
+      "Desserts, candies, and sweet breads",
+      "Confections: Desserts, candies, and sweet breads"
+    ],
+    [
+      "4",
+      "Dairy Products",
+      "Cheeses",
+      "Dairy Products: Cheeses"
+    ],
+    [
+      "5",
+      "Grains/Cereals",
+      "Breads, crackers, pasta, and cereal",
+      "Grains/Cereals: Breads, crackers, pasta, and cereal"
+    ],
+    [
+      "6",
+      "Meat/Poultry",
+      "Prepared meats",
+      "Meat/Poultry: Prepared meats"
+    ],
+    [
+      "7",
+      "Produce",
+      "Dried fruit and bean curd",
+      "Produce: Dried fruit and bean curd"
+    ],
+    [
+      "8",
+      "Seafood",
+      "Seaweed and fish",
+      "Seafood: Seaweed and fish"
+    ]
+  ]
+}

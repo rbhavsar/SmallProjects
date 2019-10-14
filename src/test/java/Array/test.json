@@ -1,0 +1,130 @@
+[
+  {
+    "columnMappings": "CategoryID=CategoryID=false,CategoryName=CategoryName=false,Description=Description=false",
+    "columnNames": [
+      "CategoryID",
+      "CategoryName",
+      "Description"
+    ],
+    "name": "Categories",
+    "schema": "dbo",
+    "columnMetadata": [
+      {
+        "name": "CategoryID",
+        "type": "INTEGER",
+        "width": 10,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      },
+      {
+        "name": "CategoryName",
+        "type": "NVARCHAR",
+        "width": 15,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      },
+      {
+        "name": "Description",
+        "type": "LONGNVARCHAR",
+        "width": 1073741823,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      }
+    ],
+    "techName": "Categories",
+    "type": "SAVED_OBJECT",
+    "unMappedColumns": []
+  },
+  {
+    "columnMappings": "CategoryID=CategoryID=false,Discontinued=Discontinued=false,ProductID=ProductID=false,ProductName=ProductName=false,QuantityPerUnit=QuantityPerUnit=false,ReorderLevel=ReorderLevel=false,SupplierID=SupplierID=false,UnitPrice=UnitPrice=false,UnitsInStock=UnitsInStock=false,UnitsOnOrder=UnitsOnOrder=false",
+    "columnNames": [
+      "CategoryID",
+      "Discontinued",
+      "ProductID",
+      "ProductName",
+      "QuantityPerUnit",
+      "ReorderLevel",
+      "SupplierID",
+      "UnitPrice",
+      "UnitsInStock",
+      "UnitsOnOrder"
+    ],
+    "name": "Products",
+    "schema": "dbo",
+    "columnMetadata": [
+      {
+        "name": "CategoryID",
+        "type": "INTEGER",
+        "width": 10,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      },
+      {
+        "name": "Discontinued",
+        "type": "BIT",
+        "width": 1,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      },
+      {
+        "name": "ProductID",
+        "type": "INTEGER",
+        "width": 10,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      },
+      {
+        "name": "ProductName",
+        "type": "NVARCHAR",
+        "width": 40,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      },
+      {
+        "name": "QuantityPerUnit",
+        "type": "NVARCHAR",
+        "width": 20,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      },
+      {
+        "name": "ReorderLevel",
+        "type": "SMALLINT",
+        "width": 5,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      },
+      {
+        "name": "SupplierID",
+        "type": "INTEGER",
+        "width": 10,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      },
+      {
+        "name": "UnitPrice",
+        "type": "DECIMAL",
+        "width": 19,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      },
+      {
+        "name": "UnitsInStock",
+        "type": "SMALLINT",
+        "width": 5,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      },
+      {
+        "name": "UnitsOnOrder",
+        "type": "SMALLINT",
+        "width": 5,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      }
+    ],
+    "techName": "Products",
+    "type": "SAVED_OBJECT",
+    "unMappedColumns": []
+  }
+]

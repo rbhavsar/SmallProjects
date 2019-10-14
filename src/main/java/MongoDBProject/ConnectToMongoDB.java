@@ -7,6 +7,7 @@ import com.mongodb.client.model.Filters;
 import com.mongodb.client.model.Updates;
 import org.bson.Document;
 
+import java.util.ArrayList;
 import java.util.logging.Filter;
 
 
@@ -15,9 +16,11 @@ public class ConnectToMongoDB {
     public static void main(String[] args) {
 
         try {
-            Mongo mongo = new Mongo("rbhavsar21", 27017);
-            DB db = mongo.getDB("TestData");
+            Mongo mongo = new Mongo("10.211.55.3", 27017);
+            DB db = mongo.getDB("ConnectorDB");
             DBCollection collection = db.getCollection("mycol_V1");
+
+
 
             BasicDBObject document = new BasicDBObject();
             document.put("title", "mkyongDB");

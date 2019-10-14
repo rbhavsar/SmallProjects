@@ -1,0 +1,38 @@
+[
+  {
+    "columnMappings": "CategoryID=CategoryID=false,CategoryName=CategoryName=false,Description=Description=false",
+    "columnNames": [
+      "CategoryID",
+      "CategoryName",
+      "Description"
+    ],
+    "name": "Categories",
+    "schema": "dbo",
+    "columnMetadata": [
+      {
+        "name": "CategoryID",
+        "type": "INTEGER",
+        "width": 10,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      },
+      {
+        "name": "CategoryName",
+        "type": "NVARCHAR",
+        "width": 15,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      },
+      {
+        "name": "Description",
+        "type": "LONGNVARCHAR",
+        "width": 1073741823,
+        "isPrimaryKey": false,
+        "referenceColumn": null
+      }
+    ],
+    "techName": "Categories",
+    "type": "SAVED_OBJECT",
+    "unMappedColumns": []
+  }
+]
